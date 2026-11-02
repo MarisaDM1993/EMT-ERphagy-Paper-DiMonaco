@@ -2,12 +2,8 @@
 // Sec24D(nG1-10) x FAM134A/B/C(WT/LIRmut) or ARL6IP1(nG11) split-GFP reconstitution
 // vs mCherry-COL4A1, DAPI nuclei. Single confocal slices.
 //
-// This is the per-cell counterpart of split_gfp_colocalization.ijm (the per-field
-// version). Both exist side by side -- use whichever matches how you want to present
-// results; they measure the same underlying thing at different resolutions.
-//
-// HOW THIS DIFFERS FROM THE PER-FIELD VERSION:
-//   - Nuclei are segmented from DAPI as before, but each nucleus is then expanded into an
+// HOW IT WORKS:
+//   - Nuclei are segmented from DAPI, each nucleus is then expanded into an
 //     approximate "cell region" by a FIXED RADIUS (cellExpandRadiusUm in CONFIG, default
 //     10 um) using ImageJ's standard run("Enlarge...") ROI command -- one simple, reliable
 //     operation per nucleus. (Two more ambitious "uncapped tessellation" approaches --
@@ -15,7 +11,7 @@
 //     were tried and abandoned after repeated failures; see VALIDATED note below. This fixed-
 //     radius approach is simpler and far more reliable, at the cost of two closely-packed
 //     cells' regions being able to overlap -- see the KNOWN CAVEAT below.)
-//   - GFP/mCherry are still thresholded ONCE PER FIELD (Otsu on the whole field), not
+//   - GFP/mCherry are thresholdeded ONCE PER FIELD (Otsu on the whole field), not
 //     separately per cell. This is deliberate: a single cell's pixel sample is small and
 //     noisy, and re-running Otsu on that little a sample risks the same threshold
 //     instability that was found to badly distort the per-field puncta counts (see the
@@ -54,7 +50,7 @@
 // duplicate/missing rows -- fixed by reordering. Please run this on a small test folder first
 // and check the Log window, QC overlays, and CSV before batch-processing everything.
 //
-// HOW TO RUN: same as the per-field version -- Plugins > Macros > Run..., pick this
+// HOW TO RUN:-- Plugins > Macros > Run..., pick this
 // file, then pick your input folder and output folder when prompted. Loops over every
 // matching file in the input folder automatically.
 //
