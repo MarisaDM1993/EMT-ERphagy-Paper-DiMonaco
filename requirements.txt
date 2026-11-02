@@ -1,0 +1,17 @@
+# Python dependencies for quantify_puncta.py / puncta_core.py
+#
+# TBD: replace each `>=` with the exact `==` version the published analysis
+# ran under. Generate the real values with `pip freeze` on that machine.
+# scikit-image matters most: in 2.0 the `min_size` argument to
+# remove_small_objects is removed, and its replacement drops objects smaller
+# than OR EQUAL TO the threshold where the present one drops only smaller
+# ones -- so a punctum of exactly 6 px2, or a nucleus of exactly 150 px2,
+# would be dropped rather than kept.
+
+numpy>=1.24
+scipy>=1.11
+scikit-image>=0.22,<2.0
+tifffile>=2023.7.10
+czifile>=2019.7.2
+Pillow>=10.0
+pandas>=2.0
