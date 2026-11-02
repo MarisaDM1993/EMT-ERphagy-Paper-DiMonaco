@@ -50,7 +50,7 @@
 // duplicate/missing rows -- fixed by reordering. Please run this on a small test folder first
 // and check the Log window, QC overlays, and CSV before batch-processing everything.
 //
-// HOW TO RUN: same as the per-field version -- Plugins > Macros > Run..., pick this
+// HOW TO RUN: -- Plugins > Macros > Run..., pick this
 // file, then pick your input folder and output folder when prompted. Loops over every
 // matching file in the input folder automatically.
 // =====================================================================================
