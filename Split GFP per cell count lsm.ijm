@@ -2,12 +2,8 @@
 // Sec24D(nG1-10) x FAM134A/B/C(WT/LIRmut) or ARL6IP1(nG11) split-GFP reconstitution
 // vs mCherry-COL4A1, DAPI nuclei. Single confocal slices.
 //
-// This is the per-cell counterpart of split_gfp_colocalization.ijm (the per-field
-// version). Both exist side by side -- use whichever matches how you want to present
-// results; they measure the same underlying thing at different resolutions.
-//
-// HOW THIS DIFFERS FROM THE PER-FIELD VERSION:
-//   - Nuclei are segmented from DAPI as before, but each nucleus is then expanded into an
+// HOW IT WORKS:
+//   - Nuclei are segmented from DAPI as before, the nucleus is then expanded into an
 //     approximate "cell region" by a FIXED RADIUS (cellExpandRadiusUm in CONFIG, default
 //     10 um) using ImageJ's standard run("Enlarge...") ROI command -- one simple, reliable
 //     operation per nucleus. (Two more ambitious "uncapped tessellation" approaches --
