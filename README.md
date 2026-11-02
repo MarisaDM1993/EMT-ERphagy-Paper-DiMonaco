@@ -2,6 +2,8 @@
 Scripts used in Di Monaco et al., 2026
 # Analysis code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23882537.svg)](https://doi.org/10.5281/zenodo.23882537)
+
 Analysis code for:
 
 > **Epithelial-Mesenchymal Transition Induces FAM134A-mediated ER-phagy to
@@ -660,7 +662,11 @@ names were asserted rather than read from the data.
 
 If you use this code, please cite the paper above and this repository:
 
-> TBD_ZENODO_CONCEPT_DOI
+> https://doi.org/10.5281/zenodo.23882537
+
+That is the concept DOI: it always resolves to the latest archived version.
+Version-specific DOIs are listed on the Zenodo record if you need to cite the
+exact snapshot you used.
 
 ## Licence
 
@@ -670,10 +676,9 @@ Released under the MIT Licence; see [LICENSE](LICENSE).
 
 ## Before release — delete this section once complete
 
-- `TBD_ZENODO_CONCEPT_DOI` — enable Zenodo for this repository, then create
-  release v1.0.0 on GitHub. Zenodo issues a version DOI and a concept DOI; use
-  the concept DOI, which always resolves to the latest version, both here and
-  in the paper.
 - `TBD_YEAR`, `TBD_PAPER_DOI` — on acceptance. Cut release v1.1.0 at the same
-  time so the archived copy carries the final citation.
+  time so the archived copy carries the final citation. The concept DOI
+  (10.5281/zenodo.23882537) does not change and needs no update.
 - Confirm `LICENSE` and `requirements.txt` are committed.
+- Confirm the Zenodo record's title and author list match the paper; Zenodo
+  fills both from GitHub by default.
