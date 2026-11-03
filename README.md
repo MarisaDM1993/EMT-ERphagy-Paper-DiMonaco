@@ -6,7 +6,7 @@ Scripts used in Di Monaco et al., 2026
 
 Analysis code for:
 
-> **FAM134A-dependent ER-phagy restrains pro-invasive procollagen secretion during Epithelial-Mesenchymal Transition**
+> **FAM134A-dependent ER-phagy restrains procollagen secretion during Epithelial-Mesenchymal Transition**
 > Di Monaco M, Vascon A, Sen O, Saksono G, Teo JY, Brunner V, Schellhaas C,
 > Ulrich S, Squires I, Filipe Soares R, Nimmakayala LP, Peteri M, Corn J,
 > Liang JR.
