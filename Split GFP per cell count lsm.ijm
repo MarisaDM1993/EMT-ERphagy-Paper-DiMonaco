@@ -3,7 +3,7 @@
 // vs mCherry-COL4A1, DAPI nuclei. Single confocal slices.
 //
 // HOW IT WORKS:
-//   - Nuclei are segmented from DAPI as before, the nucleus is then expanded into an
+//   - Nuclei are segmented from DAPI, the nucleus is then expanded into an
 //     approximate "cell region" by a FIXED RADIUS (cellExpandRadiusUm in CONFIG, default
 //     10 um) using ImageJ's standard run("Enlarge...") ROI command -- one simple, reliable
 //     operation per nucleus. (Two more ambitious "uncapped tessellation" approaches --
