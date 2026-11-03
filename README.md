@@ -8,7 +8,7 @@ Analysis code for:
 
 > **FAM134A-dependent ER-phagy restrains procollagen secretion during Epithelial-Mesenchymal Transition**
 > Di Monaco M, Vascon A, Sen O, Saksono G, Teo JY, Brunner V, Schellhaas C,
-> Ulrich S, Squires I, Filipe Soares R, Nimmakayala LP, Peteri M, Corn J,
+> Ulrich S, Squires I, Filipe Soares R, Peteri M, Corn J,
 > Liang JR.
 > *Developmental Cell* (TBD_YEAR). DOI: TBD_PAPER_DOI
 
