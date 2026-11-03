@@ -3,7 +3,7 @@
 Quantify GR-COL4A1 reporter puncta over a folder of confocal images.
 
 This is the general-purpose entry point to the pipeline in `puncta_core.py`.
-It replaces the per-panel processing scripts: the quantification is identical,
+The quantification is identical to the per-panel analysis script,
 and which fields belong to which condition and replicate is supplied as a
 manifest rather than hard-coded.
 
